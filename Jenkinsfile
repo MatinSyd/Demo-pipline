@@ -3,7 +3,7 @@ pipeline {
     stages {
         stage('Check Version') {
             steps {
-                sh 'node --version'
+                sh 'nde --version'
                 sh 'npm --version'
             }
             post {
